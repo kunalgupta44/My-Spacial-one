@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="birthdayMusic" autoplay loop>
+        <source src="/music/Teri Jhuki Nazar Murder 3-(Mr-Jat.in).mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <button class="music-control" id="musicToggle">🔊</button>
+
+    <div class="container">
+        <h1 class="title">❤️ MY LOVE ❤️</h1>
+        <p class="subtitle">You Make Every Moment Special ❤️</p>
+        
+        <div class="cake-container" onclick="blowCandles()">
+            ❤️
+        </div>
+
+        <div class="navigation">
+            <a href="index1.html" class="nav-btn">📸 Our Memories</a>
+            <a href="index2.html" class="nav-btn">💌 Love Message</a>
+            <a href="index3.html" class="nav-btn">🎁 Special Surprise</a>
+        </div>
+    </div>
+
+    <script src="app.js">
+        document.addEventListener("click", function () {
+    const music = document.getElementById("loveMusic");
+    music.play();
+}, { once: true });
+    </script>
+</body>
+</html>
